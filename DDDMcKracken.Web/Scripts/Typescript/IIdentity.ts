@@ -1,0 +1,3 @@
+interface IIdentity {
+    id: string;
+}

@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "DDD Mc Kracken - Stage #0";
+}
+<div class="row">
+    <div class="col-md-12">
+        <h2>DDD Mc Kracken</h2>
+        <div class="canvas" style="position:relative;background-image: url(../Content/Assets/Stages/0000/stage0000.png); width:648px; height:257px;">
+
+
+
+        </div>
+    </div>
+</div>
+<div class="row">&nbsp;</div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-1">
+        <a href="#" class="btn btn-primary command" data-command-name="Push">Push</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="Pull">Pull</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="Give">Give</a>
+    </div>
+    <div class="col-md-1">
+        <a href="#" class="btn btn-primary command" data-command-name="Open">Open</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="Close">Close</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="Read">Read</a>
+    </div>
+    <div class="col-md-1">
+        <a href="#" id="walkto" class="btn btn-primary command" data-command-name="WalkTo">Walk to</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="PickUp">Pick up</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="WhatIs">What is</a>
+    </div>
+    <div class="col-md-1">
+        <a href="#" class="btn btn-primary command" data-command-name="PutOn">Put on</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="TakeOff">Take off</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="Use">Use</a>
+    </div>
+    <div class="col-md-1">
+        <a href="#" class="btn btn-primary command" data-command-name="TurnOn">Turn on</a>
+        <br /><a href="#" class="btn btn-primary command" data-command-name="TurnOff">Turn off</a>
+    </div>
+    <div class="col-md-6">
+    </div>
+</div>
+@section css {
+<link href="~/Content/dddmckracken.css" rel="stylesheet" />
+}
+@section scripts {
+    <script src="~/Scripts/ddmckracken.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+
+            run_stage0000();
+
+        });
+
+    </script>
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScummDDD", "ScummDDD\ScummDDD.csproj", "{53002850-56C1-4570-AD59-6C3B3453646E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMcKracken.Domain", "DDDMcKracken.Domain\DDDMcKracken.Domain.csproj", "{A49B39E9-73C9-4D3F-9DA3-08AF82FDFBF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMcKracken.Web", "DDDMcKracken.Web\DDDMcKracken.Web.csproj", "{45306267-967A-4DC6-96D7-52D2E8A4722D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53002850-56C1-4570-AD59-6C3B3453646E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53002850-56C1-4570-AD59-6C3B3453646E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53002850-56C1-4570-AD59-6C3B3453646E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53002850-56C1-4570-AD59-6C3B3453646E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49B39E9-73C9-4D3F-9DA3-08AF82FDFBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49B39E9-73C9-4D3F-9DA3-08AF82FDFBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49B39E9-73C9-4D3F-9DA3-08AF82FDFBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49B39E9-73C9-4D3F-9DA3-08AF82FDFBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45306267-967A-4DC6-96D7-52D2E8A4722D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45306267-967A-4DC6-96D7-52D2E8A4722D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45306267-967A-4DC6-96D7-52D2E8A4722D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45306267-967A-4DC6-96D7-52D2E8A4722D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
